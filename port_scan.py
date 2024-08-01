@@ -60,7 +60,7 @@ def sair():
 
 def help():
     print("""
-- [01] Essa opção irá scanear portas enviando pacotes "TCP", as portas que retornarem resposta serão printadas na tela.
+- [01] Essa opção irá scanear portas enviando pacotes "TCP", as portas que retornarem, resposta serão printadas na tela.
 - [00] Essa opção sairá do programa.
 """)
 
