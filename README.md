@@ -3,7 +3,7 @@ PortScan automatizado
 Um portscan que pode verificar qualquer porta. Isso mesmo qualquer, exemplo: 22, 9050, 443, 22. Até mesmo as portas ocultas!
 
 
-Instalando alguns requerimentos:
+INSTALANDO ALGUNS REQUERIMENTOS:
 
 - python3 -m venv venv
 
@@ -13,7 +13,12 @@ Instalando alguns requerimentos:
 
 - pip install colorama
 
-Obs: se você não tiver essas biblioteca instaladas sera necessário você fazer esse processo se estiver no, linux. 
+WINDOWS. 
+
+Instalando alguns requerimentos: 
+- pip install requests
+
+- pip install colorama
 
 Para instalar a ferramenta digite no terminal:
 
@@ -23,4 +28,23 @@ Para instalar a ferramenta digite no terminal:
 
 - cd PortScansAuto
 
+- python port_scan.py
+
+Linux:
+- cd Documentos
+
+- git clone https://github.com/Guilherme929/PortScansAuto.git
+
+- cd PortScansAuto
+
+- python3 -m venv venv
+
+- source venv/bin/activate
+
 - python3 port_scan.py
+
+REQUERIMENTOS DENTRO DA VENV:
+
+- pip install requests
+
+- pip install colorama
