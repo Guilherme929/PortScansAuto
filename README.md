@@ -19,6 +19,6 @@ Para instalar a ferramenta digite no terminal:
 
 - cd Documentos
 
-- wget https://github.com/Guilherme929/Port_scans_auto/blob/main/port_scan.py
+- git clone https://github.com/Guilherme929/PortScansAuto.git
 
 - python3 port_scan.py
