@@ -62,6 +62,11 @@ def help():
     print("""
 - [01] Essa opção irá scanear portas enviando pacotes "TCP", as portas que retornarem, resposta serão printadas na tela.
 - [00] Essa opção sairá do programa.
+
+
+                                                        Atenção:
+    A url precisa conter o protocolos, Exemplo: "http://", "https://", "www.". se caso a url tiver derevera colocar a url completa!
+    
 """)
 
 if __name__ == '__main__':
@@ -89,6 +94,7 @@ if __name__ == '__main__':
 
     while True:
         try:
+            print('')
             escolha = input('\nEscolha uma opção: ')
 
             if escolha in ('Scanear', '1', 'scanear'):
