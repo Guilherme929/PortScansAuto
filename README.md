@@ -7,7 +7,7 @@ Instalando alguns requerimentos:
 
 - python3 -m venv venv
 
-- source nome_do_ambiente/bin/activate
+- source venv/bin/activate
 
 - pip install requests
 
