@@ -24,7 +24,9 @@ Para instalar a ferramenta digite no terminal:
 
 - cd Documentos
 
-- git clone https://github.com/Guilherme929/PortScansAuto.git
+- instale o zip da ferramenta
+
+- extraia o zip
 
 - cd PortScansAuto
 
